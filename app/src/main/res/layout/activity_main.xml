@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRegistroDeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaDeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Usuario"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaDeUConSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultando lista de usuario usando spinner"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaDeUConListV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultando lista usuario usando listview"
+        android:onClick="onClick"/>
+
+</LinearLayout>

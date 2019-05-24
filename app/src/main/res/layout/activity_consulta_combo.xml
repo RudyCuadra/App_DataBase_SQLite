@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultaComboActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSeleccioneO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una opcion"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/esOpcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtDocumentoCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Documento: "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtNombreCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTelefonoCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: "/>
+
+</LinearLayout>
